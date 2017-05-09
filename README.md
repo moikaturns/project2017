@@ -5,7 +5,7 @@ self learning tasks on a range of technologies
 * Build: mvn package
 * Test: mvn test
 * Run: java -cp target/project-1.0.jar com.tutorial.project.App aabbc
-Expected: word [aabbc] has 3 different characters
+** Expected: word [aabbc] has 3 different characters
 # simpleWeb
 * Added web project that uses the simple class
 * Added parent project for both simple web and simple class projects
@@ -15,3 +15,8 @@ Expected: word [aabbc] has 3 different characters
 * Then open browser and request page: http://localhost:8080/simpleWeb/simple/countMee
 * Should render a count of the string countMee
 * Example: SimpleServlet Executed [countMee] [7]
+# newCar
+* New web app is spring enabled but runs and serves a simple jsp file
+* Run it with: cd newCar && mvn jetty:run
+* Open in a browser: http://localhost:8080/newCarWeb/test.jsp
+** Expected: Example - Spring Application/ This is my test.
